@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CCF1AAE822225C9100E8424F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AAE722225C9100E8424F /* AppDelegate.swift */; };
-		CCF1AAEA22225C9100E8424F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AAE922225C9100E8424F /* ViewController.swift */; };
 		CCF1AAED22225C9100E8424F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1AAEB22225C9100E8424F /* Main.storyboard */; };
 		CCF1AAEF22225C9400E8424F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF1AAEE22225C9400E8424F /* Assets.xcassets */; };
 		CCF1AAF222225C9400E8424F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1AAF022225C9400E8424F /* LaunchScreen.storyboard */; };
 		CCF1AAFD22225C9400E8424F /* TableViewEditableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AAFC22225C9400E8424F /* TableViewEditableTests.swift */; };
 		CCF1AB0822225C9400E8424F /* TableViewEditableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AB0722225C9400E8424F /* TableViewEditableUITests.swift */; };
+		CCF1AB1622225CE000E8424F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AB1522225CE000E8424F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		CCF1AAE422225C9100E8424F /* TableViewEditable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewEditable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF1AAE722225C9100E8424F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCF1AAE922225C9100E8424F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCF1AAEC22225C9100E8424F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCF1AAEE22225C9400E8424F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF1AAF122225C9400E8424F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		CCF1AB0322225C9400E8424F /* TableViewEditableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewEditableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF1AB0722225C9400E8424F /* TableViewEditableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditableUITests.swift; sourceTree = "<group>"; };
 		CCF1AB0922225C9400E8424F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF1AB1522225CE000E8424F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CCF1AAE722225C9100E8424F /* AppDelegate.swift */,
-				CCF1AAE922225C9100E8424F /* ViewController.swift */,
+				CCF1AB1522225CE000E8424F /* TableViewController.swift */,
 				CCF1AAEB22225C9100E8424F /* Main.storyboard */,
 				CCF1AAEE22225C9400E8424F /* Assets.xcassets */,
 				CCF1AAF022225C9400E8424F /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF1AAEA22225C9100E8424F /* ViewController.swift in Sources */,
 				CCF1AAE822225C9100E8424F /* AppDelegate.swift in Sources */,
+				CCF1AB1622225CE000E8424F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NikhilPatil.TableViewEditable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NikhilPatil.TableViewEditable-SearchBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NikhilPatil.TableViewEditable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NikhilPatil.TableViewEditable-SearchBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
